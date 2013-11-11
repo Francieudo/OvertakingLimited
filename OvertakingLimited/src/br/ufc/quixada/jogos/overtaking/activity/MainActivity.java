@@ -32,7 +32,7 @@ public class MainActivity extends Activity {
 		CCDirector.sharedDirector().attachInView(glSurfaceView);
 		
 		// configura CCDirector
-		CCDirector.sharedDirector().setScreenSize(320, 480);
+		CCDirector.sharedDirector().setScreenSize(402,125);
 		
 		// abre tela principal
 		CCScene scene = new TitleScreen().scene();
